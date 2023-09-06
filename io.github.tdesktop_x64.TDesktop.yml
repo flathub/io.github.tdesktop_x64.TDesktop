@@ -20,7 +20,7 @@ finish-args:
   - --env=QT_PLUGIN_PATH=/app/lib/plugins
   - --env=PATH=/app/lib/webview/bin:/app/bin:/usr/bin
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.llvm16
+  - org.freedesktop.Sdk.Extension.llvm15
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
