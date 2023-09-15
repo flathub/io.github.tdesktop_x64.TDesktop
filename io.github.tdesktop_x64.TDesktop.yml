@@ -1,6 +1,6 @@
 id: io.github.tdesktop_x64.TDesktop
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: telegram-desktop
 rename-icon: telegram
@@ -20,12 +20,12 @@ finish-args:
   - --env=QT_PLUGIN_PATH=/app/lib/plugins
   - --env=PATH=/app/lib/webview/bin:/app/bin:/usr/bin
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.llvm15
+  - org.freedesktop.Sdk.Extension.llvm16
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
     add-ld-path: .
-    version: '22.08'
+    version: '23.08'
     autodownload: true
     autodelete: false
   org.telegram.desktop.webview:
@@ -40,8 +40,8 @@ cleanup-commands:
 build-options:
   cflags: -DNDEBUG
   cxxflags: -DNDEBUG
-  append-path: /usr/lib/sdk/llvm15/bin
-  append-ld-library-path: /usr/lib/sdk/llvm15/lib
+  append-path: /usr/lib/sdk/llvm16/bin
+  append-ld-library-path: /usr/lib/sdk/llvm16/lib
 cleanup:
   - /doc
   - /include
@@ -502,7 +502,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-app/tg_owt.git
-        commit: dcb5069ff76bd293e86928804208737e6cee2ccc
+        commit: 0532942ac6176a66ef184fb728a4cbb02958fc0b
         x-checker-data:
           type: json
           parent-id: 64gram-desktop-git-0
@@ -537,8 +537,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/TDesktop-x64/tdesktop.git
-        commit: a444ba6d662d31ffb5045a3139ce460e2801ac9b
-        tag: v1.0.92
+        commit: 7587cbf160a578a583472b5c81f16bf4f894213f
+        tag: v1.0.93
         x-checker-data:
           type: json
           url: https://api.github.com/repos/TDesktop-x64/tdesktop/releases
