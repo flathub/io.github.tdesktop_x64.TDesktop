@@ -502,7 +502,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-app/tg_owt.git
-        commit: 0532942ac6176a66ef184fb728a4cbb02958fc0b
+        commit: 3bb3d757681e6cc5135aec6529a753dc3dcdcfb9
         x-checker-data:
           type: json
           parent-id: 64gram-desktop-git-0
@@ -537,8 +537,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/TDesktop-x64/tdesktop.git
-        commit: 7c390603c5b45cbdf156c45eb12e74ca46385908
-        tag: v1.0.95
+        commit: abae6e78057343318df988ce1da1aa912276ba24
+        tag: v1.0.96
         x-checker-data:
           type: json
           url: https://api.github.com/repos/TDesktop-x64/tdesktop/releases
