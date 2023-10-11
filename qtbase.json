@@ -24,7 +24,6 @@
         "desktop-app-patches/qtbase_6.6.0/0021-translucent-captioned-window-on-windows.patch",
         "desktop-app-patches/qtbase_6.6.0/0022-allow-bordered-translucent-macos.patch",
         "desktop-app-patches/qtbase_6.6.0/0023-better-open-url-linux.patch",
-        "desktop-app-patches/qtbase_6.6.0/0024-fix-qpointer.patch",
-        "desktop-app-patches/qtbase_6.6.0/0025-fix-qnetworkinformation-in-snap.patch"
+        "desktop-app-patches/qtbase_6.6.0/0024-fix-qnetworkinformation-in-snap.patch"
     ]
 }
