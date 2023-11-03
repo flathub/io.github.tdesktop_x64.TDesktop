@@ -543,8 +543,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/TDesktop-x64/tdesktop.git
-        commit: 2fcd21feac21a218e725522cb3ecaab7cf5a32ed
-        tag: v1.1.0
+        commit: f40ae54233afe2a2cd0e0cf3a159652e9ea71121
+        tag: v1.1.1
         x-checker-data:
           type: json
           url: https://api.github.com/repos/TDesktop-x64/tdesktop/releases
